@@ -35,25 +35,19 @@ I successfully analysed the Buttercup web server dataset using Splunk. Key achie
 </p>
 
 <div align="center">
-    <h3>Top Client IPs</h3>
-    <img src="top_ips.png" alt="Top Client IP Addresses" height="80%" width="80%">
-    <p>Visualization showing the top 10 client IP addresses accessing the website.</p>
+    <h3>Failed Requests (Status=404)</h3>
+    <img src="get_status_404.png" alt="GET status=404 results" height="80%" width="80%">
+    <p>Analysis showing the client IPs generating the most 404 errors.</p>
 </div>
 
 <div align="center">
-    <h3>HTTP Response Codes</h3>
-    <img src="http_status_codes.png" alt="HTTP Response Codes" height="80%" width="80%">
-    <p>Analysis of HTTP response codes to identify successful and failed requests.</p>
+    <h3>All GET Requests</h3>
+    <img src="get_requests.png" alt="GET requests results" height="80%" width="80%">
+    <p>Mining GET requests to track user activity and product interactions.</p>
 </div>
 
 <div align="center">
-    <h3>Purchase Analysis</h3>
-    <img src="purchase_analysis.png" alt="Purchase Analysis" height="80%" width="80%">
-    <p>Top purchased items and mapping to product categories for business insight.</p>
-</div>
-
-<div align="center">
-    <h3>Browser Usage Trends</h3>
-    <img src="browser_usage.png" alt="Browser Usage Trends" height="80%" width="80%">
-    <p>Visualization showing the most popular web browsers used by clients.</p>
+    <h3>Browser and OS Comparison</h3>
+    <img src="browser_os_comparison.png" alt="Browser and OS comparison" height="80%" width="80%">
+    <p>Comparison showing the usage trends for Windows vs Mac clients.</p>
 </div>
