@@ -36,18 +36,18 @@ I successfully analysed the Buttercup web server dataset using Splunk. Key achie
 
 <div align="center">
     <h3>Failed Requests (Status=404)</h3>
-    <img src="get_status_404.png" alt="GET status=404 results" height="80%" width="80%">
+    <img src="get_status_404.png" alt="GET status=404 results" height="50%" width="50%">
     <p>Analysis showing the client IPs generating the most 404 errors.</p>
 </div>
 
 <div align="center">
     <h3>All GET Requests</h3>
-    <img src="get_requests.png" alt="GET requests results" height="80%" width="80%">
+    <img src="get_requests.png" alt="GET requests results" height="50%" width="50%">
     <p>Mining GET requests to track user activity and product interactions.</p>
 </div>
 
 <div align="center">
     <h3>Browser and OS Comparison</h3>
-    <img src="browser_os_comparison.png" alt="Browser and OS comparison" height="80%" width="80%">
+    <img src="browser_os_comparison.png" alt="Browser and OS comparison" height="50%" width="50%">
     <p>Comparison showing the usage trends for Windows vs Mac clients.</p>
 </div>
